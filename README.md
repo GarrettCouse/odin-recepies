@@ -1,2 +1,2 @@
 # odin-recepies
-This will be a basic website using HTML only.
+This will be an example website using HTML and CSS.

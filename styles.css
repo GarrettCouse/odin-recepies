@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 48px;
+    padding-left: 40%;
+}
+
+
+.pan{
+    width: 200px;
+    height: 200px;
+}
+.enchilladas{
+    width: 200px;
+    height: 200px;
+}
+.flan{
+    width: 200px;
+    height: 200px;
+}
+.tacos{
+    width: 200px;
+    height: 200px;
+}
