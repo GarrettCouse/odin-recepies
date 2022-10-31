@@ -3,24 +3,64 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+}
+h1, h2, h3, h4, h5, h6, span{
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+    
+}
 h1{
     font-size: 48px;
-    padding-left: 40%;
+}
+a{
+    text-decoration: none;
+    position: relative;
+    transition: opacity 300ms ease;
+}i:hover{
+    opacity: 0.7;
+}
+.link__hover-effect::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: black;
+    width: 0;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms;
+}
+.link__hover-effect:hover::after{
+    width: 100%;
+    left: 0;
+}
+.link__hover-effect--white::after{
+    background-color: #ffff;
+}
+li{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
 }
 
-.pan{
-    width: 200px;
-    height: 200px;
+/* Recipes */
+
+.reipes{
+    margin: 135px;
 }
-.enchilladas{
-    width: 200px;
-    height: 200px;
+.recipe__img{
+    width: 100%;
+    transition: all 500ms ease;
 }
-.flan{
-    width: 200px;
+.recipe__wrapper{
     height: 200px;
-}
-.tacos{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    position: relative;
 }
