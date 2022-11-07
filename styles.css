@@ -56,9 +56,12 @@ html{
     transition: all 500ms ease;
 }
 .recipe__wrapper{
+    margin: 48px;
     height: 200px;
     width: 400px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     border-radius: 20px;
@@ -107,9 +110,13 @@ padding-top: 40px;
 }
 
 .recipe__description--title{
+    color: white;
     font-size: 40px;
+}
+.recipe__description--sub-title{
+    color: white;
 }
 
 .project__description--link{
-    
+
 }
